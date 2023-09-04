@@ -61,4 +61,4 @@ jobs:
           --version-label "Ver-${{ github.sha }}"
 
       - name: Print Happy message
-        run: echo "CI-CD pipeline finished successfully"
+        run: echo "CI-CD pipeline finished successfully!!!"
