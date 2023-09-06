@@ -2,9 +2,9 @@
 name: CI/CD-to-AWS
 env:
   EB_PACKAGE_S3_BUCKET_NAME: "hetmanskyi-application1-packages"
-  EB_APPLICATION_NAME: "My-py-app"
-  EB_ENVIRONMENT_NAME: "Py-app-env"
-  DEPLOY_PACKAGE_NAME: "py_app_${{ github.sha }}.zip"
+  EB_APPLICATION_NAME: "flask-app"
+  EB_ENVIRONMENT_NAME: "flask-app-env"
+  DEPLOY_PACKAGE_NAME: "flask_app_${{ github.sha }}.zip"
   AWS_REGION: "us-east-1"
   
 on:
